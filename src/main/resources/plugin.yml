@@ -1,0 +1,8 @@
+name: PlayerJoinMessage
+version: 7.5.1
+main: top.wruczek.PJM.Main
+author: ['Wruczek', 'NizarZa123']
+commands:
+  playerjoinmessage:
+    description: "PlayerJoinMessage main command"
+    aliases: ['pjm']

@@ -1,0 +1,13 @@
+# PlayerJoinMessage configuration file.
+# Authors: NizarZa123 and Wruczek
+# http://dev.bukkit.org/bukkit-plugins/messagejoinplayer/
+Default:
+  Join: "&a%player% &6joined the game"
+  Leave: "&a%player% &6left the game"
+
+# Permission: playerjoinmessage.vip
+VIP:
+  Join: "&8[&aVIP&8] &6%player% &ejoined the game"
+  Leave: "&8[&aVIP&8] &6%player% &eleft the game"
+
+CFGVER: 1.0
