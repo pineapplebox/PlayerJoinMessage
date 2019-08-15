@@ -19,11 +19,6 @@ public class Listeners implements Listener {
     }
 
     private String getMessage(PlayerEvent event) {
-        boolean isVIP = event.getPlayer().hasPermission("playerjoinmessage.vip");
-        boolean isJoinEvent = event instanceof PlayerJoinEvent;
-
-        String newMessage = Main.getColoredMessage((isVIP ? "VIP" : "Default") + "." + (isJoinEvent ? "Join" : "Leave"));
-
         if (newMessage != null)
             newMessage = newMessage.replace("%player%", event.getPlayer().getName());
 
